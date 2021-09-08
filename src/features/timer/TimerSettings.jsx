@@ -87,6 +87,9 @@ const SettingsDialogue = styled.div`
 const Settings = styled.div`
     display: flex;
     margin: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
 `
 
 const InputWrapper = styled.div`
@@ -102,7 +105,8 @@ const InputLabel = styled.label`
 const SettingsButtons = styled.div`
 display: flex;
 flex-direction: row;
-justify-content: flex-end;
+justify-content: center;
+flex-wrap: wrap;
 width: 100%;
 `
 
